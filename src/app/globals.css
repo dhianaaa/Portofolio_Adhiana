@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #5546FF;
+  --foreground: #17143A;
+  --font-anton: "Anton", sans-serif;
+  --font-bricolage: "Bricolage Grotesque", sans-serif;
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark light;
+}
+
+body {
+  background-color: #5546FF;
+  color: #17143A;
+  font-family: var(--font-jakarta), system-ui, sans-serif;
+  overflow-x: hidden;
+  selection-background-color: #BFFF0A;
+  selection-color: #17143A;
+}
+
+::selection {
+  background-color: #BFFF0A;
+  color: #17143A;
+}
+
+/* Custom scrollbar matching dark aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #17143A;
+}
+::-webkit-scrollbar-thumb {
+  background: #5546FF;
+  border-radius: 9999px;
+  border: 2px solid #17143A;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BFFF0A;
+}
+
+/* Hide scrollbar for clean horizontal scrollers */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Glassmorphism utility */
+.glass-pill {
+  background: rgba(244, 242, 255, 0.15);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.glass-pill-dark {
+  background: rgba(23, 20, 58, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Text stroke utility for decorative display titles */
+.text-stroke-white {
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.4);
+  color: transparent;
+}
+
+.text-stroke-dark {
+  -webkit-text-stroke: 1.5px rgba(23, 20, 58, 0.4);
+  color: transparent;
+}
