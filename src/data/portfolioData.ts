@@ -112,10 +112,10 @@ export const PORTFOLIO_DATA = {
   },
 
   stats: [
-    { label: "Experience", value: "03+ YRS" },
-    { label: "Projects Completed", value: "25+" },
-    { label: "Organizations", value: "02 ACTIVE" },
-    { label: "Community Reach", value: "3,000+" },
+    { label: "Experience", value: "2 Years" },
+    { label: "Projects Completed", value: "10+" },
+    { label: "Organisasi & Kepanitiaan", value: "5" },
+    { label: "Core Focus", value: "Mobile · UI/UX · QA" },
   ],
 
   projects: [
@@ -400,27 +400,27 @@ export const PORTFOLIO_DATA = {
   principles: [
     {
       number: "01",
-      title: "Clarity over noise",
+      title: "User First",
       description:
-        "Every element, pixel, and user interaction must serve a distinct purpose. Removing unnecessary decorative clutter allows the core product utility to shine effortlessly.",
+        "Desain dan alur aplikasi selalu berpusat pada kenyamanan pengguna nyata, mengutamakan kemudahan navigasi daripada sekadar dekorasi.",
     },
     {
       number: "02",
-      title: "Engineering meets empathy",
+      title: "Clean & Resilient Code",
       description:
-        "Clean code and robust architectures are meaningless if the experience feels cold. I craft mobile interfaces that feel human, accessible, and tactile.",
+        "Mengembangkan aplikasi Flutter dengan arsitektur modular yang rapi, terstruktur, dan mudah dirawat seiring pertumbuhan fitur.",
     },
     {
       number: "03",
-      title: "Details define quality",
+      title: "Quality & Detail Driven",
       description:
-        "Micro-interactions, typographic rhythm, haptic cues, and graceful edge-case handling are what transform a good interface into an unforgettable digital product.",
+        "Membawa pola pikir Quality Assurance (QA) di setiap tahap—menguji skenario penggunaan, validasi input, dan meminimalkan bug.",
     },
     {
       number: "04",
-      title: "Built to scale & evolve",
+      title: "Continuous Growth",
       description:
-        "From atomic token systems to modular Flutter state architectures, solutions must be clean, maintainable, and designed to grow with changing organizational needs.",
+        "Selalu antusias mengeksplorasi teknologi baru, tren desain UI/UX modern, dan praktik rekayasa perangkat lunak terbaik.",
     },
   ] as PrincipleItem[],
 
@@ -498,51 +498,51 @@ export const PORTFOLIO_DATA = {
 
   experiences: [
     {
-      period: "2024 — Present",
-      role: "Secretary & Executive Administrator",
-      organization: "Media Moklet (SMK Telkom Malang)",
-      type: "Student Organization",
+      period: "2026 — Present",
+      role: "Quality Assurance (QA) & Testing",
+      organization: "Personal & Academic Projects",
+      type: "Quality Engineering",
       description:
-        "Overseeing administrative documentation, scheduling editorial sprints, organizing official publications, and coordinating cross-division meetings for over 30 student journalists and creatives.",
+        "Menyusun skenario uji terstruktur, pengujian fungsional manual, validasi endpoint API, dan audit konsistensi UI antarmuka.",
       achievements: [
-        "Modernized organizational filing into unified digital cloud workspaces",
-        "Coordinated 10+ major school coverage campaigns and annual bulletins",
+        "Menyusun test cases komprehensif untuk sistem utilitas AmertaPay",
+        "Memastikan verifikasi UI/UX dan kompatibilitas responsif sebelum rilis",
+      ],
+    },
+    {
+      period: "2025 — Present",
+      role: "Mobile App Developer (Flutter)",
+      organization: "Personal & Academic Projects",
+      type: "Mobile Engineering",
+      description:
+        "Mengembangkan aplikasi mobile cross-platform berbasis Flutter dan Dart, merancang hierarki widget modular, dan integrasi database.",
+      achievements: [
+        "Membangun aplikasi JoyCharm dan Cake Shop dengan animasi lancar",
+        "Menerapkan responsive layout untuk perangkat Android dan iOS",
+      ],
+    },
+    {
+      period: "2025 — Present",
+      role: "UI/UX Designer",
+      organization: "Web Perpustakaan & Web METIC",
+      type: "Product Design",
+      description:
+        "Merancang antarmuka pengguna dari riset dan wireframe hingga prototipe interaktif di Figma serta sistem komponen terpadu.",
+      achievements: [
+        "Mendesain UI/UX Web Perpustakaan SMK Telkom Malang",
+        "Menyusun sistem desain dan prototipe Web METIC Organization",
       ],
     },
     {
       period: "2024 — Present",
-      role: "Graphic Designer & Creative Contributor",
-      organization: "Metic Moklet & Media Moklet",
-      type: "Creative Division",
-      description:
-        "Designing social media publication kits, event posters, identity assets, and UI components for digital school media and extracurricular showcases.",
-      achievements: [
-        "Produced 50+ published digital media banners and event visuals",
-        "Co-developed visual guidelines and graphic templates for fast turnarounds",
-      ],
-    },
-    {
-      period: "2023 — Present",
-      role: "Digital Media & IT Staff",
-      organization: "Perpustakaan SMK Telkom Malang",
-      type: "School Entity",
-      description:
-        "Assisting digital library operations, prototyping the Pustel mobile interface, and crafting educational book review content.",
-      achievements: [
-        "Designed UI flow for digital catalog borrowing system",
-        "Increased library student social engagement by 35% through visual posts",
-      ],
-    },
-    {
-      period: "2023 — Present",
       role: "Software Engineering Student",
       organization: "SMK Telkom Malang",
-      type: "Education",
+      type: "Pendidikan Vokasi",
       description:
-        "Specializing in Software Engineering (RPL). Mastering mobile application development, frontend engineering, database architectures, and UI/UX design.",
+        "Mendalami Rekayasa Perangkat Lunak (RPL) dengan fokus pada mobile development, desain produk digital, dan rekayasa kualitas.",
       achievements: [
-        "Consistent academic honors in software engineering modules",
-        "Active contributor to school software incubation projects",
+        "Aktif dalam 5 kegiatan organisasi dan kepanitiaan sekolah",
+        "Menyelesaikan 10+ proyek aplikasi dan desain antarmuka",
       ],
     },
   ] as ExperienceItem[],
