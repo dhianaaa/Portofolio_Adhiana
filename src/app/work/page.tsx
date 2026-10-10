@@ -18,8 +18,7 @@ export default function WorkPage() {
     "All",
     "Mobile App",
     "UI/UX Design",
-    "Frontend & Web",
-    "Creative Tech",
+    "Graphic Design",
   ];
 
   const filteredProjects = projects.filter((project) => {
@@ -27,24 +26,20 @@ export default function WorkPage() {
     if (activeCategory === "Mobile App")
       return (
         project.category.toLowerCase().includes("mobile") ||
-        project.tech.includes("Flutter") ||
-        project.tech.includes("React Native")
+        project.tech.includes("Flutter")
       );
     if (activeCategory === "UI/UX Design")
       return (
-        project.category.toLowerCase().includes("design system") ||
+        project.category.toLowerCase().includes("ui/ux") ||
         project.tech.includes("Figma") ||
-        project.category.toLowerCase().includes("prototype")
+        project.category.toLowerCase().includes("design system") ||
+        project.category.toLowerCase().includes("web design")
       );
-    if (activeCategory === "Frontend & Web")
+    if (activeCategory === "Graphic Design")
       return (
-        project.tech.includes("Next.js") ||
-        project.category.toLowerCase().includes("editorial")
-      );
-    if (activeCategory === "Creative Tech")
-      return (
-        project.tech.includes("Unity") ||
-        project.category.toLowerCase().includes("ar")
+        project.category.toLowerCase().includes("graphic") ||
+        project.category.toLowerCase().includes("brand") ||
+        project.tech.includes("Illustrator")
       );
     return true;
   });

@@ -38,6 +38,23 @@ export function middleware(request: NextRequest) {
 
   // Aliases for project slugs to Varen showcase pages
   const slugAliases: Record<string, string> = {
+    "work_joycharm": "work_vorqen",
+    "work_our-store": "work_noctra",
+    "work_our_store": "work_noctra",
+    "work_amertapay": "work_aurel",
+    "work_cake-shop": "work_montra",
+    "work_cake_shop": "work_montra",
+    "work_web-perpus": "work_arden",
+    "work_web_perpus": "work_arden",
+    "work_web-metic": "work_lumen",
+    "work_web_metic": "work_lumen",
+    "work_waylo": "work_kova",
+    "work_laporkita": "work_n_C3_B8rth",
+    "work_jwb-games": "work_vorqen",
+    "work_jwb_games": "work_vorqen",
+    "work_ml-carnival": "work_noctra",
+    "work_ml_carnival": "work_noctra",
+    // Backward compatibility aliases
     "work_media-moklet": "work_vorqen",
     "work_media_moklet": "work_vorqen",
     "work_pustel-mobile": "work_noctra",
